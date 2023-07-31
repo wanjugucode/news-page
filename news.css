@@ -90,12 +90,21 @@ body, h1, p {
   .card-body{
     margin-left:10%;
   }
+  .card-body .card-title{}
 
+  .card-body h5{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .card-body p{
+color: #1E1E1E; 
+font-size: 12px; 
+}
 
 
   .container.text-center.footer{
     background-color:#1E1E1E;
-    color:#FEBE01;
+    color:white;
   }
 .col{
   text-align: left;
@@ -103,8 +112,17 @@ body, h1, p {
 
 
 .container.text-center.footer .row{
-  padding-top: 5%;
+  padding-top: 7%;
 }
+.container.text-center.footer .row h5{
+font-size: 20px;
+}
+.container.text-center.footer .row .logo{
+  font-weight: 800;
+}
+.container.text-center.footer .row p{
+  font-size: 18px;
+  }
 .row.footer{
   margin-left: 2%;
 }
@@ -125,9 +143,49 @@ body, h1, p {
 
 }
 
-.copyright{
-  color:#FEBE01;
-  margin-left: 10%;
+#copyright{
+  color:white;
+  margin-left: 5%;
   padding-bottom: 5%;
 }
   
+.footer{
+  background-color: #1E1E1E;
+color: white;
+padding-top: 7.5%;
+padding-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1;
+  padding: 15px;
+  box-sizing: border-box;
+  min-width: 0; /* To prevent overflow issues on small screens */
+}
+/* Optional: Add some styles to make it visually appealing */
+@media (min-width: 600px) {
+  .container .column:nth-child(3),
+  .container .column:nth-child(4),
+  .container .column:nth-child(2) {
+    flex: 0.5;
+  }
+}
+
+
+/* Responsive column widths */
+@media (max-width: 820px) {
+  .container .column {
+    flex: 100%;
+    margin-left: 7.5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .container .column {
+    flex: 100%;
+  }
+}
