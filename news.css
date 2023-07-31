@@ -1,0 +1,133 @@
+/* Reset some default styles for consistency */
+*{
+  height: auto;
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero{
+    background-image: url('images/homepage.jpg');
+    background-color: #f0f0f0;
+
+  }
+  /* Content styles */
+  .content {
+    padding: 20px;
+    color: white;
+    width: 47%;
+    margin-left: auto; /* Move the content to the right */
+    text-align: left;
+
+
+  }
+  
+  .content h1 {
+    font-size: 3.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+  }
+  
+  button{
+    background-color: #FEBE01;
+    padding: 2%;
+    border-radius: 10%;
+    border: none;
+    width: 30%;
+    font-weight: 500;
+  
+    
+  }
+  .row.row-cols-1.row-cols-md-2.g-4 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .row.row-cols-1.row-cols-md-2.g-4 .col .card{
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  .row.row-cols-1.row-cols-md-2.g-4 {
+    width: 90%;
+    margin: 0 auto;
+    /* align-items: center; */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .content {
+      width: 100%; /* On smaller screens, occupy full width */
+      margin-left: 0; /* Reset the margin to center the content */
+    }
+  .col-5 {
+    width: 100%;
+  }
+  }
+
+  .row.contact{
+    background-color: #FEBE01;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  .row.contact .card{
+    background-color: #FEBE01;
+    border: none;
+  }
+  .card-body{
+    margin-left:10%;
+  }
+
+
+
+  .container.text-center.footer{
+    background-color:#1E1E1E;
+    color:#FEBE01;
+  }
+.col{
+  text-align: left;
+}
+
+
+.container.text-center.footer .row{
+  padding-top: 5%;
+}
+.row.footer{
+  margin-left: 2%;
+}
+#email{
+  height: 23%;
+  width: 100%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  border: 4px solid white;
+  border-radius: 2%;
+
+}
+#subscribe{
+  background-color: #FEBE01;
+  padding: 5%;
+  border-radius: 10%;
+  width: auto;
+
+}
+
+.copyright{
+  color:#FEBE01;
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
+  
