@@ -73,6 +73,7 @@ body, h1, p {
       width: 100%; /* On smaller screens, occupy full width */
       margin-left: 0; /* Reset the margin to center the content */
     }
+
   .col-5 {
     width: 100%;
   }
@@ -93,7 +94,6 @@ body, h1, p {
   .card-body{
     margin-left:10%;
   }
-  .card-body .card-title{}
 
   .card-body h5{
     font-weight: bold;
@@ -176,6 +176,7 @@ padding-bottom: 5%;
   .container .column:nth-child(2) {
     flex: 0.5;
   }
+
 }
 
 
@@ -185,11 +186,17 @@ padding-bottom: 5%;
     flex: 100%;
     margin-left: 7.5%;
   }
+  #copyright{
+    margin-left: 15%;
+  }
 }
 
 @media (max-width: 640px) {
   .container .column {
     flex: 100%;
+  }
+  #copyright{
+    margin-left: 15%;
   }
 }
 
