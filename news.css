@@ -217,11 +217,11 @@ form input{
   display: block;
   margin: 0 auto;
   margin-top: 3px;
-  height: 70px;
+  height: 30px;
   border: none;
   margin-bottom: 5px;
-  background-color:black;
-  color: whitesmoke;
+  background-color:#000000;
+  color: white;
 
 
 
@@ -232,13 +232,13 @@ form input{
   font-size:45px
 }
 form #message{
-  height: 100px;
+  height: 90px;
 }
 
 hr{
   color: white;
 }
 form hr{
-  height: 2px;
+  height: 10px;
   color: white;
 }
