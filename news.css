@@ -243,3 +243,13 @@ form hr{
   height: 10px;
   color: white;
 }
+
+#load-more{
+  background-color: white;
+
+  border: 1px solid black;
+  font-weight: 500;
+  width: 20%;
+  height: 70px;
+  margin-bottom: 5%;
+}
