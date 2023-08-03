@@ -73,7 +73,9 @@ body, h1, p {
       width: 100%; /* On smaller screens, occupy full width */
       margin-left: 0; /* Reset the margin to center the content */
     }
-
+    #copyright{
+      margin-left: 5%;
+    }
   .col-5 {
     width: 100%;
   }
@@ -176,7 +178,9 @@ padding-bottom: 5%;
   .container .column:nth-child(2) {
     flex: 0.5;
   }
-
+  #copyright{
+    margin-left: 5%;
+  }
 }
 
 
@@ -187,7 +191,7 @@ padding-bottom: 5%;
     margin-left: 7.5%;
   }
   #copyright{
-    margin-left: 15%;
+    margin-left: 5%;
   }
 }
 
