@@ -1,137 +1,159 @@
 /* Reset some default styles for consistency */
-*{
+* {
   height: auto;
 }
-body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Hero section styles */
-  .hero {
-    background-image: url('path/to/your/background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  
-  .hero{
-    background-image: url('images/homepage.jpg');
-    background-color: #f0f0f0;
 
-  }
-  /* Content styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('path/to/your/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  background-image: url('images/homepage.jpg');
+  background-color: #f0f0f0;
+
+}
+
+/* Content styles */
+.content {
+  padding: 20px;
+  color: white;
+  width: 47%;
+  margin-left: auto;
+  /* Move the content to the right */
+  text-align: left;
+
+
+}
+
+.content h1 {
+  font-size: 3.1rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+}
+
+button {
+  background-color: #FEBE01;
+  padding: 2%;
+  border-radius: 10%;
+  border: none;
+  width: 30%;
+  font-weight: 500;
+
+
+}
+
+.row.row-cols-1.row-cols-md-2.g-4 {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.row.row-cols-1.row-cols-md-2.g-4 .col .card {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.row.row-cols-1.row-cols-md-2.g-4 {
+  width: 90%;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .content {
-    padding: 20px;
-    color: white;
-    width: 47%;
-    margin-left: auto; /* Move the content to the right */
-    text-align: left;
-
-
-  }
-  
-  .content h1 {
-    font-size: 3.1rem;
-    margin-bottom: 10px;
-  }
-  
-  .content p {
-    font-size: 1rem;
-  }
-  
-  button{
-    background-color: #FEBE01;
-    padding: 2%;
-    border-radius: 10%;
-    border: none;
-    width: 30%;
-    font-weight: 500;
-  
-    
-  }
-  .row.row-cols-1.row-cols-md-2.g-4 {
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-  .row.row-cols-1.row-cols-md-2.g-4 .col .card{
     width: 100%;
-    margin: 0 auto;
-  
-  }
-  .row.row-cols-1.row-cols-md-2.g-4 {
-    width: 90%;
-    margin: 0 auto;
-    /* align-items: center; */
+    /* On smaller screens, occupy full width */
+    margin-left: 0;
+    /* Reset the margin to center the content */
   }
 
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .content {
-      width: 100%; /* On smaller screens, occupy full width */
-      margin-left: 0; /* Reset the margin to center the content */
-    }
-    #copyright{
-      margin-left: 5%;
-    }
+  #copyright {
+    margin-left: 5%;
+  }
+
   .col-5 {
     width: 100%;
   }
-  }
-  .col-sm-6 .card .card-body{
-    border:none;
-  }
+}
 
-  .row.contact{
-    background-color: #FEBE01;
-      padding-top: 5%;
-      padding-bottom: 5%;
-  }
-  .row.contact .card{
-    background-color: #FEBE01;
-    border: none;
-  }
-  .card-body{
-    margin-left:10%;
-  }
+.col-sm-6 .card .card-body {
+  border: none;
+}
 
-  .card-body h5{
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .card-body p{
-color: #1E1E1E; 
-font-size: 12px; 
+.row.contact {
+  background-color: #FEBE01;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.row.contact .card {
+  background-color: #FEBE01;
+  border: none;
+}
+
+.card-body {
+  margin-left: 10%;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.card-body p {
+  color: #1E1E1E;
+  font-size: 12px;
 }
 
 
-  .container.text-center.footer{
-    background-color:#1E1E1E;
-    color:white;
-  }
-.col{
+.container.text-center.footer {
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.col {
   text-align: left;
 }
 
 
-.container.text-center.footer .row{
+.container.text-center.footer .row {
   padding-top: 7%;
 }
-.container.text-center.footer .row h5{
-font-size: 20px;
+
+.container.text-center.footer .row h5 {
+  font-size: 20px;
 }
-.container.text-center.footer .row .logo{
+
+.container.text-center.footer .row .logo {
   font-weight: 800;
 }
-.container.text-center.footer .row p{
+
+.container.text-center.footer .row p {
   font-size: 18px;
-  }
-.row.footer{
+}
+
+.row.footer {
   margin-left: 2%;
 }
-#email{
+
+#email {
   height: 23%;
   width: 100%;
   margin-bottom: 4%;
@@ -140,7 +162,8 @@ font-size: 20px;
   border-radius: 8px;
 
 }
-#subscribe{
+
+#subscribe {
   background-color: #FEBE01;
   padding: 5%;
   border-radius: 8px;
@@ -148,37 +171,42 @@ font-size: 20px;
 
 }
 
-#copyright{
-  color:white;
+#copyright {
+  color: white;
   margin-left: 5%;
   padding-bottom: 5%;
 }
-  
-.footer{
+
+.footer {
   background-color: #1E1E1E;
-color: white;
-padding-top: 7.5%;
-padding-bottom: 5%;
+  color: white;
+  padding-top: 7.5%;
+  padding-bottom: 5%;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
 }
+
 .column {
   flex: 1;
   padding: 15px;
   box-sizing: border-box;
-  min-width: 0; /* To prevent overflow issues on small screens */
+  min-width: 0;
+  /* To prevent overflow issues on small screens */
 }
+
 /* Optional: Add some styles to make it visually appealing */
 @media (min-width: 600px) {
+
   .container .column:nth-child(3),
   .container .column:nth-child(4),
   .container .column:nth-child(2) {
     flex: 0.5;
   }
-  #copyright{
+
+  #copyright {
     margin-left: 5%;
   }
 }
@@ -190,7 +218,8 @@ padding-bottom: 5%;
     flex: 100%;
     margin-left: 7.5%;
   }
-  #copyright{
+
+  #copyright {
     margin-left: 5%;
   }
 }
@@ -199,20 +228,22 @@ padding-bottom: 5%;
   .container .column {
     flex: 100%;
   }
-  #copyright{
+
+  #copyright {
     margin-left: 15%;
   }
 }
 
-.col-sm-6 .card .card-body.contact-form{
+.col-sm-6 .card .card-body.contact-form {
 
   background-color: black;
   padding-top: 10%;
   padding-bottom: 10%;
   width: 80%;
-  
+
 }
-#btn-send{
+
+#btn-send {
   background-color: #FEBE01;
   padding: 2%;
   border: none;
@@ -221,9 +252,10 @@ padding-bottom: 5%;
   height: 65px;
 
 
-  
+
 }
-form input{
+
+form input {
   width: 90%;
   display: block;
   margin: 0 auto;
@@ -231,7 +263,7 @@ form input{
   height: 30px;
   border: none;
   margin-bottom: 5px;
-  background-color:#000000;
+  background-color: #000000;
   color: white;
   font-weight: 300;
 
@@ -242,26 +274,29 @@ form input{
 }
 
 
-.row.contact .col-sm-6.mb-sm-0 .card{
+.row.contact .col-sm-6.mb-sm-0 .card {
   /* padding: 20px; */
   margin: 20px 0;
 }
-.row.contact .col-sm-6.mb-sm-0 .card .card-body .card-title{
-  font-size:45px
+
+.row.contact .col-sm-6.mb-sm-0 .card .card-body .card-title {
+  font-size: 45px
 }
-form #message{
+
+form #message {
   height: 90px;
 }
 
-hr{
+hr {
   color: white;
 }
-form hr{
+
+form hr {
   height: 10px;
   color: white;
 }
 
-#load-more{
+#load-more {
   background-color: white;
 
   border: 1px solid black;
