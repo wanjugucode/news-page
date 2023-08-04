@@ -12,7 +12,6 @@ p {
 
 /* Hero section styles */
 .hero {
-  background-image: url('path/to/your/background-image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
